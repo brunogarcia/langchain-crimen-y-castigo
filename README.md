@@ -1,9 +1,13 @@
 # Langchain y Crimen y Castigo
 
 El objetivo de este proyecto es crear un notebook que permita realizar preguntas
-en lenguaje natural al libro _Crimen y Castigo_ de Dostoievski.
+en lenguaje natural al libro [Crimen y Castigo de Dostoievski](https://www.elejandria.com/libro/crimen-y-castigo/dostoyevski-fiodor/146)
 
-El [libro](https://www.elejandria.com/libro/crimen-y-castigo/dostoyevski-fiodor/146) lo he descargado desde el proyecto Elejandría.
+Es importante destacar que **NO** estamos realizando un búsqueda "clásica" dentro del libro, sino que estamos usando como contexto para GPT la base de datos de Chroma que contiene multiples fragmentos del libro almacenados en forma de vectores.
+
+Ahora podemos hablar con un libro, y que el libro nos conteste.
+
+¡Se acabaron los deberes escolares!
 
 ## Ejemplo
 
@@ -14,12 +18,6 @@ A la pregunta:
 La respuesta sería:
 
 > Rodion Raskólnikov comete el asesinato y el robo de la vieja prestamista y su hermana Lisbeth. Lo comete por la miseria y el deseo de abrirse paso en la vida con los tres mil rublos que esperaba encontrar en casa de la víctima.
-
-Es importante destacar que **NO** estamos realizando un búsqueda "clásica" dentro del libro, sino que estamos buscando en la base de datos de Chroma, que contiene los embeddings de los bloques del libro.
-
-Ahora podemos hablar con un libro, y que el libro nos conteste.
-
-¡Se acabaron los deberes escolares!
 
 ## ¿Cómo funciona?
 
