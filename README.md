@@ -21,7 +21,9 @@ La respuesta sería:
 
 ## ¿Cómo funciona?
 
-Con la ayuda de la base de datos [Chroma](https://www.trychroma.com/), la [API de OpenAI](https://openai.com/) y [Langchain](https://langchain.readthedocs.io/) como conector entre ambas, el notebook es capaz de entender las preguntas y responder a ellas.
+Con la ayuda de la base de datos [Chroma](https://www.trychroma.com/), la [API de OpenAI](https://openai.com/) y [Langchain](https://langchain.readthedocs.io/) como conector entre ambas, el notebook es capaz de entender las preguntas del usuario y responder de forma precisa y coherente.
+
+![Crimen y Castigo](crimen_y_castigo.png)
 
 ## Precio
 
